@@ -2,6 +2,9 @@
 const express = require("express"); 
 const app = express();
 
+//Importar connection
+const fileDB = require("./connection");
+
 //Con este get, se establece una ruta de consulta en el local host (http://localhost:5000/)
 app.get("/",(req, res) =>{
     res.end("Estas en el server backend node");
