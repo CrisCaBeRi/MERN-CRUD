@@ -1,0 +1,26 @@
+{
+  "name": "mern-crud",
+  "version": "1.0.0",
+  "description": "CRUD using MERN stack.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisCaBeRi/MERN-CRUD.git"
+  },
+  "author": "Cristian Camilo Betancourt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrisCaBeRi/MERN-CRUD/issues"
+  },
+  "homepage": "https://github.com/CrisCaBeRi/MERN-CRUD#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
